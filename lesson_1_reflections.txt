@@ -18,31 +18,3 @@ A: some programs require multiple files to run , so in the process of developing
 
 A:git log gives us a list of all the commits for that particular repository . GIt diff is used to find out the difference between any 2 files from the commit history.
 
-6. What happens when you initialize a repository? Why do you need to do it?
-
-A: A folder has to be initialized into a repository so that the files created in that folder can be tracked and that all git commands work on the files.
-
-7. How is the staging area different from the working directory and the repository? What value do you think it offers?
-
-Staging area is a way of listing out all the files we want changed and committed to the repository . It helps us commit multiple files all at once.
-
-8. How can you use the staging area to make sure you have one commit per logical change?
-
-A: A logical change could involve a change in code in multiple files , so staging all the required files and committing them is a very effeciemt way of committing a logical change.
-
-9. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-
-A:The branch feature helps us to implement a doubtful improvisation on the code file without unnecessarily populationg the commit area . Finally only the successful version of branch is committed.
-
-10. How do the diagrams help you visualize the branch structure?
-
-A: diagrmas give us a visual map of how all the commits made , including both the master and branch commits.
-
-11. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-
-A: the result of merging 2 branches is a single project instance that contains a combination of features from both the project instances.
-We represent merging that way to give the idea that - what was once 2 instances of the project will henceforth run as 1 single instance.
-
-12.What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-
-A: pros - git has the technological sophistication to make the right merges 99% of the times so it saves developers a lot of time.cons - merging in gits auto merging will still reveal some conflicts in code.
